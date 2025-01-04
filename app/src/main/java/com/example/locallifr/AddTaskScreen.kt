@@ -14,7 +14,7 @@ fun AddTaskScreen(navController: NavHostController) {
     val context = LocalContext.current
     var title by remember { mutableStateOf("") }
     var description by remember { mutableStateOf("") }
-    var location by remember { mutableStateOf("") } // New field for location for task screen
+    var location by remember { mutableStateOf("") } // New field for location
 
     Scaffold(
         topBar = {
